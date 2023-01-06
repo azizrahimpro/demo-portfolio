@@ -2,6 +2,12 @@
   margin: none;
   font-family: "Open Sans", sans-serif;
 }
+header{
+  background: #FFF8F3;
+  background-image: url('../images/header_bg.png'),url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right 200px, left;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -27,11 +33,48 @@ nav {
   font-size: 45px;
 }
 nav ul {
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 nav li {
   list-style: none;
   margin-left: 50px;
   font-size: 20px;
+}
+
+/* Banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-sub-title {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: -35px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.banner-btn {
+  display: flex;
+}
+.btn-2 {
+  color: #fd6e0a;
+  background: #ffffff;
+  margin-left: 30px;
+  width: 160px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: #fd6e0a;
 }
